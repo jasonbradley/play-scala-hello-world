@@ -1,4 +1,10 @@
-This is your new Play application
-=================================
+A very simple "Hello World" web application using Play (https://www.playframework.com/) in Scala.
 
-This file will be packaged with your application, when using `activator dist`.
+== Usage ==
+
+1. Start the application using "run"
+2. Two endpoints:
+
+GET: "curl -X GET localhost:9000/hello-world"
+PUT: "curl -X PUT localhost:9000/hello-world?value=Hello" 
+
